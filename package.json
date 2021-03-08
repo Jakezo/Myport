@@ -19,12 +19,14 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build"
+    
+    "predeploy": "npm run build"
+
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://jakezo.github.io/myportfolio",
+  "homepage": "https://jakezo.github.io/Myport",
   "browserslist": [
     ">0.2%",
     "not dead",
