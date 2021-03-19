@@ -53,7 +53,7 @@ const Logo = styled.h1`
 const NavList = styled.ul`
     display:flex;
     font-size: 18px;
-    font-weight:600;
+    font-weight:bold;
     text-align:center;
     @media (max-width: 994px){
         display:block;
@@ -114,7 +114,7 @@ export default ({ pos, home, about, skill, project, toggleBtn, isClickList }) =>
     <Header current={pos > 0}>
         <HeaderWrap>
             <Logo>
-                <span style={{ color: "#27ae60" }}>Won</span>Young
+                <span style={{ color: "#27ae60" }}>Jake</span>zo
             </Logo>
             <MobCover />
             <Button onClick={toggleBtn}>{isClickList ? <FontAwesomeIcon icon="times" size="2x" /> : <FontAwesomeIcon icon="bars" size="2x" />} </Button>

@@ -42,7 +42,7 @@ const TitleContainer = styled.div`
 `;
 const Title = styled.h2`
     font-size: 5rem;
-    font-weight:600;
+    font-weight:bold;
     white-space:nowrap;
     @media(min-width:540px) and (max-width: 994px){
         font-size: 3rem;   
@@ -54,7 +54,7 @@ const Title = styled.h2`
 `;
 const SubTitle = styled.h3`
     font-size: 4rem;
-    font-weight:600;
+    font-weight:bold;
     color:rgba(20,20,20, .6);
     white-space: nowrap;
     @media(min-width:540px) and (max-width: 994px){
@@ -75,7 +75,7 @@ export default () => (
         <Background />
         <TitleContainer>
             <Title>안녕하세요!</Title>
-            <SubTitle>제 이름은 조<span style={{ color: "#000" }}>재</span>익 입니다.</SubTitle>
+            <SubTitle>백앤드 개발자 <span style={{ color: "#000" }}>조재익</span> 입니다.</SubTitle>
         </TitleContainer>
     </Container>
 )

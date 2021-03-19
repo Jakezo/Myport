@@ -18,6 +18,6 @@ const Copyright = styled.p`
 
 export default () => (
     <Footer>
-        <Copyright>© 2019 Copyright <span style={{ color: "#ddd" }}>WonYoung_Yun</span></Copyright>
+        <Copyright>© 2021 Copyright <span style={{ color: "#ddd" }}>Jakezo</span></Copyright>
     </Footer>
 )

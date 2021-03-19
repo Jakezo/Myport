@@ -16,7 +16,7 @@ const ContentWrap = styled.div`
 
 const Title = styled.h2`
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: bold;
     color: #27ae60;
     @media(max-width: 994px){
         text-align:center;
@@ -75,7 +75,7 @@ const CardContent = styled.div`
     flex: 1;
     padding: 60px 0 30px 30px;
     background-color:#fff;
-    z-index:2;
+    z-index:1;
     line-height:2;
     @media(max-width: 994px){
         padding: 5px 20px 0 20px;
@@ -86,7 +86,7 @@ const CardContent = styled.div`
 
 const CardTitle = styled.h3`
     font-size: 1.5rem;
-    font-weight:600;
+    font-weight:bold;
     border-bottom: 2px solid #2ecc71;
     @media(max-width:540px){
         font-size:1.3rem;
@@ -95,17 +95,17 @@ const CardTitle = styled.h3`
 
 const ContentTxt = styled.p`
     font-size: 1.12rem;
-    font-weight:600;
-    color: #aaa;
+    font-weight:bold;
+    color: #9ab9a7;
     @media(max-width:540px){
         font-size:1rem;
     }
 `;
 const ContentURL = styled.a`
     font-size: 1rem;
-    font-weight:700;
+    font-weight:normal;
     transition: color .2s linear;
-    color:#a9a9a9;
+    color:#8fd8d8;
     &:hover{
         color:#333;
     }
@@ -121,7 +121,7 @@ const ContentURL = styled.a`
 `;
 const ContentUrl = styled.a`
     font-size: 1.2rem;
-    font-weight:700;
+    font-weight:bold;
     transition: color .2s linear;
     color:#333;
     &:hover{
@@ -144,16 +144,16 @@ export default ({ data }) => (
                             <CardTitle>{e.id}</CardTitle>
                             <ContentTxt>{e.txt}</ContentTxt>
                             {e.url && (
-                                <ContentURL href={e.url} name="'URL: '">
+                                <ContentURL href={e.url} target='_blank' name="'URL: '">
                                     {e.url}
                                 </ContentURL>
                             )}
                             {e.pdf && (
-                                <ContentURL href={e.pdf} name="'PDF: '">
-                                    커뮤니티.pdf
+                                <ContentURL href={e.pdf} target='_blank' name="'PDF: '">
+                                    스프링쇼핑몰.pdf
                                 </ContentURL>
                             )}
-                            <ContentUrl href={e.git}>깃허브</ContentUrl>
+                            <ContentUrl href={e.git} target='_blank'>깃허브</ContentUrl>
                         </CardContent>
                     </Card>
                 )}

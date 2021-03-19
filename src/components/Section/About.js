@@ -15,7 +15,7 @@ const Container = styled.article`
 
 const Title = styled.h2`
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: bold;
     color: #27ae60;
     @media(max-width: 994px){
 
@@ -54,13 +54,13 @@ const ProfileImg = styled.img`
 
 const ProfileTitle = styled.h3`
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: bold;
 
 `;
 
 const ProfileSubtitle = styled.p`
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: bold;
     line-height:2;
 
 `;
@@ -68,7 +68,7 @@ const ProfileSubtitle = styled.p`
 const ProfileDetail = styled.ul`
     margin-top: 10px;
     font-size: .8rem;
-    font-weight:700;
+    font-weight:bold;
     @media(min-width:540px) and (max-width: 994px){
         text-align:left;
         padding-left: 100px;  
@@ -132,9 +132,18 @@ export default () => (
                 <ProfileImg src={PROFILE} alt="프로필 사진"></ProfileImg>
                 <ProfileText>
                     <ProfileTitle>조재익</ProfileTitle>
-                    <ProfileSubtitle>Front-End Developer</ProfileSubtitle>
+                    <ProfileSubtitle>Back-End Developer</ProfileSubtitle>
                     <ProfileDetail>
                        
+                        <ProfileItem>
+                            <ItemIcon>
+                                <FontAwesomeIcon icon="graduation-cap" size="2x" />
+                            </ItemIcon>
+                            <Itemtxt>
+                                <ItemTitle>University : </ItemTitle>
+                                인천대학교 산업공학과
+                            </Itemtxt>
+                        </ProfileItem>
                         <ProfileItem>
                             <ItemIcon>
                                 <FontAwesomeIcon icon="phone" size="2x" />
@@ -159,7 +168,7 @@ export default () => (
                             </ItemIcon>
                             <Itemtxt>
                                 <ItemTitle>Github : </ItemTitle>
-                                <ItemLink href="https://github.com/Jakezo">
+                                <ItemLink href="https://github.com/Jakezo" target='_blank'>
                                     https://github.com/Jakezo
                             </ItemLink>
 
@@ -169,7 +178,7 @@ export default () => (
                 </ProfileText>
             </Profile>
             <MyIntro>
-                <div>안녕하세요. 코딩을 통해 웹을 그리ㄷㄷ111111는 정말로 것에 재미를 느껴 프론트엔드 개발자의 길을 걸었습니다.<br />발전하는 기술의 흐름 속에서, 그것에 적응하고 더 좋은 개발자가 되고 싶어 달려가고 있습니다.<br />자신의 일을 좋아하는 열정있는 개발자 입니다! 저에 대해 궁금하신 점이 있다면, 위의 주소로 연락주세요!</div>
+                <div>안녕하세요. 새로운 기술을 배우고 사이트를 만드는 것에 흥미를 느껴 백앤드 개발자의 길을 걸었습니다.<br />발전하는 기술의 흐름 속에서, 그것에 적응하고 더 좋은 개발자가 되고 싶어 달려가고 있습니다.<br />자신의 일을 좋아하는 열정있는 개발자 입니다! 저에 대해 궁금하신 점이 있다면, 위의 주소로 연락주세요!</div>
             </MyIntro>
         </Content>
     </Container>

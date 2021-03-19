@@ -5,65 +5,66 @@ import CSSIMG from 'assets/skill/css3.png';
 import JSIMG from 'assets/skill/javascript.png';
 import JQIMG from 'assets/skill/jquery.png';
 import REACTIMG from 'assets/skill/react.png';
-import VUEIMG from 'assets/skill/vue.png';
 import NODEIMG from 'assets/skill/node.png';
-import MONGOIMG from 'assets/skill/mongodb.png';
 import GITIMG from 'assets/skill/git.png';
+import SIMG from 'assets/skill/spring.png';
+import OIMG from 'assets/skill/oracleimg.png';
+import JIMG from 'assets/skill/javaimg.png';
 
 class SkillContainer extends Component {
     state = {
         data: [
             {
-                skill: "HTML5",
-                img: HTMLIMG,
-                lv: 3,
-                txt: "프론트엔드의 기본, 웹표준과 HTML태그에 대해 학습하였습니다."
+                skill: "JAVA",
+                img: JIMG,
+                lv: 2,
+                txt: "백엔드의 기본, 자바에 대해 학습하였습니다."
             },
             {
-                skill: "CSS3",
-                img: CSSIMG,
+                skill: "SPRING",
+                img: SIMG,
                 lv: 3,
-                txt: "프론트엔드의 기본2, 웹페이지의 스타일링과 반응형 레이아웃을 학습하였습니다."
+                txt: "스프링을 통해 지금까지 배운 전반적인 내용을 이용하여 최종 프로젝트를 만들었습니다."
             },
             {
                 skill: "JavaScript",
                 img: JSIMG,
-                lv: 3,
-                txt: "프론트엔드의 기본3, 클로저와 this 등의 JavaScript의 특성과 ES6를 학습하였습니다."
+                lv: 2,
+                txt: "프로젝트를 만들때 javascript 를 활용하여 페이지를 구성해 보았습니다."
             },
             {
                 skill: "Jquery",
                 img: JQIMG,
                 lv: 1,
-                txt: "선택자와 ajax, 트래버싱 등을 학습하였습니다."
+                txt: "ajax를 프로젝트에 활용해 보았고 제이쿼리를 통해 자바스크립트를 쉽게 활용할수 있도록 학습하였습니다."
             },
             {
-                skill: "React.js",
-                img: REACTIMG,
-                lv: 2,
-                txt: "Virtual DOM, State와 Props, 라이프사이클, Router 등을 학습하여 웹페이지를 구현할 수 있습니다."
+                skill: "CSS3",
+                img: CSSIMG,
+                lv: 3,
+                txt: "기본적인 페이지를 꾸미는 css를 학습하였습니다."
             },
             {
-                skill: "Vue.js",
-                img: VUEIMG,
+                skill: "HTML5",
+                img: HTMLIMG,
                 lv: 2,
-                txt: "data, methods, 등의 Vue의 기본과 상태관리인 Vuex를 학습하여 웹페이지를 구현할 수 있습니다. "
+                txt: "프론트앤드의 기본 HTML5에 대하여 학습하였습니다. "
             },
             {
                 skill: "Node.js",
                 img: NODEIMG,
-                lv: 2,
-                txt: "Node.js를 통한 백엔드 구성 방법과, 프레임워크인 Express를 학습하여 간단한 API서버를 만들 수 있습니다."
+                lv: 1,
+                txt: "Node.js를 통해 Github Page를 만들어 보았고 React 의 기초적인 부분을 학습해 보았습니다."
             },
             {
-                skill: "MongoDB",
-                img: MONGOIMG,
+                skill: "ORACLE",
+                img: OIMG,
                 lv: 2,
-                txt: "NoSQL DBMS와, Node.js 연동을 위한 Mongoose를 학습하였습니다. "
+                txt: "기본 적인 데이터베이스의 구조에 대하여 학습하고 스프링 프로젝트에 활용하였습니다. "
             }, {
                 skill: "Git",
                 img: GITIMG,
-                lv: 2,
+                lv: 1,
                 txt: "Git의 기본 명령어를 학습하고 현재 활용하고 있습니다."
             },
         ],

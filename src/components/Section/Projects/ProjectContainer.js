@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import ProjectPresenter from './ProjectPresenter';
-import CIMG from 'assets/mev.png';
+import CIMG from 'assets/shopmall.png';
 import PIMG from 'assets/portfolio.png';
 
 class ProjectContainer extends Component {
     state = {
         data: [
             {
-                id: "모던 커뮤니티웹",
-                url: "http://윤원영.kr",
-                git: "https://github.com/WonYoungYun/vue-community",
-                txt: "MongoDB-Express-Vue로 만든 게시판",
-                pdf: "https://drive.google.com/file/d/1kGqXQgd6TCQ2KvDVSa8ALrozN4T21FGH/view",
+                id: "Shopping mall site",
+                url: "http://ching21.cafe24.com",
+                git: "https://github.com/Jakezo/springproject",
+                txt: "스프링 쇼핑몰 사이트",
+                pdf: "https://drive.google.com/file/d/1TxhQ2ECkhf-Ugn23CKCCnadSS9ViUhxQ/view",
                 img: CIMG
             },
             {
-                id: "포트폴리오",
-                git: "https://github.com/WonYoungYun/myportfolio",
+                id: "Portfolio",
+                git: "https://github.com/Jakezo/myport",
                 txt: "React로 만든 포트폴리오",
                 img: PIMG
             }

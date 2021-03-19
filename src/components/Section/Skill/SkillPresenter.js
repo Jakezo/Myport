@@ -17,7 +17,7 @@ const ContentWrap = styled.div`
 
 const Title = styled.h2`
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: bold;
     color: #27ae60;
     @media(max-width: 994px){
         text-align:center;
@@ -101,7 +101,7 @@ const CardImg = styled.img`
 const CardTitle = styled.h4`
     margin-top:5px;
     font-size:1.12rem;
-    font-weight:600;
+    font-weight:bold;
 `;
 const CardStar = styled.span`
     display:block;
@@ -143,7 +143,7 @@ const SlideButton = styled.button`
 
 const SlidePage = styled.span`
     font-size: 1rem;
-    font-weight:700;
+    font-weight:bold;
     letter-spacing:3px;
 `;
 
